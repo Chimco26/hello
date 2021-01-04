@@ -29,32 +29,37 @@
     <main>
         <h1>Contact us</h1>
 
-        <h2>Use this form to contact us</h2> <hr>
+        <h2>Use this form to contact us</h2>
 
-        <form action="q">
-            <table>
-                <tr>
-                    <td><label for="name">First name:</label></td>
-                    <td><input type="text" id="name"></td>
-                </tr>        
+        <form>
+            <div>
+                <label>
+                    <span>First name:</span>
+                    <input type="text">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Email:</span>
+                    <input type="email">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Phone number:</span>
+                    <input type="tel">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Details:</span>
+                    <textarea></textarea>
+                </label>
+            </div>
+            <div>
+                <button>Send form</button>
+            </div>
             
-                <tr>
-                    <td><label for="email">Email:</label></td>
-                    <td><input type="email" id="email">
-                </tr>
-
-                <tr>
-                    <td><label for="phone">Phone number:</label></td>
-                    <td><input type="tel" id="phone"></td>
-                </tr>
-
-                <tr>
-                    <td><label for="details">Details:</label></td>
-                    <td><textarea id="details" rows="4"></textarea></td>
-                </tr>
-            </table>
-
-            <button>Send form</button>
         </form>
     </main>
 
