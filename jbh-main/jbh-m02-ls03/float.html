@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: 16px;
+        }
+
+        .box {
+            float: left;
+            width: 100px;
+            height: 100px;
+            border: 1px solid pink
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul.menu li {
+            float: left;
+            font-size: 2em;
+            line-height: 32px;
+            padding: 10px;
+            margin: 0 3px;
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class='menu'>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <li><a href="#">Item 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class='clear'></div>
+    <div class='box'>
+        content
+    </div>
+    <div class='box'>
+        content
+    </div>
+    <div class='box'>
+        content
+    </div>
+    <div class='clear'></div>
+    <div>
+        new content
+    </div>
+    <div>
+        new content
+    </div>
+</body>
+
+</html>

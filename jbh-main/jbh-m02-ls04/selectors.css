@@ -1,0 +1,73 @@
+div {
+    width: 50px;
+    height: 50px;
+}
+
+.box {
+    background-color: rgb(255,0,0);
+}
+
+/* direct sibling */
+.box + .box {
+    background-color: rgb(0, 255, 0);
+}
+
+/* father */
+header > .text {
+    background-color: rgb(0, 0, 255);
+}
+
+/* any ancient sibling */
+li.first ~ li {
+    color:aquamarine;
+}
+
+/* attribute selector */
+
+/* contains the value*/
+a[href*='google'] {
+    color:violet;
+}
+
+/* start with */
+a[href^="https://"] {
+    color:green;
+}
+
+/* ends with */
+a[href$="co.uk"] {
+    color:lightsalmon;
+}
+
+/* exact value */
+a[href="https://google.com"] {
+    color:yellowgreen
+}
+
+/* has the attribute */
+a[title] {
+    color:brown;
+}
+div.documents {
+    width: 100%;
+}
+
+a[href$=".docx"]::after, a[href$=".pdf"]::after, a[href$=".xslx"]::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: 20px;
+    margin-left: 3px;
+}
+
+a[href$=".docx"]::after {
+    background-image: url(icons/word.png);
+}
+a[href$=".pdf"]::after {
+    background-image: url(icons/pdf.png);
+}
+
+a[href$=".xslx"]::after {
+    background-image: url(icons/excel.jpg);
+}

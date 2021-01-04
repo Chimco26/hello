@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='node_modules/bootstrap/dist/css/bootstrap.css'>
+    <link rel='stylesheet' href='node_modules/@fortawesome/fontawesome-free/css/fontawesome.css'>
+    <link rel='stylesheet' href='node_modules/@fortawesome/fontawesome-free/css/solid.css'>
+
+    <style>
+        .cents {
+            font-size: 0.75em;
+        }
+
+        .btn-orange {
+            color: #fff;
+            background-color: blue;
+            border-color: rgb(240, 22, 6);
+        }
+
+        .orange-background {
+            background-color: #ff6601;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='container-fluid bg-light mb-5'>
+        <h1>Bus ticket</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <form style='width: 100%'>
+                <div class='form-row'>
+                    <div class='col-12 col-md-3 mb-3 px-3'>
+                        <select class="form-control">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class='col-12 col-md-3 mb-3 px-3'>
+                        <select class="form-control">
+                            <option selected>Choose...</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class='col-12 col-md-2 mb-3  px-3'>
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class='col-12 col-md-2 mb-3 px-3'>
+                        <input type="text" class="form-control" placeholder="date">
+                        <input type="date" class="form-control" style='display: none;'>
+                    </div>
+                    <div class='col-12 col-md-2 text-right'>
+                        <button type="submit" class="btn btn-orange">Submit</button>
+                    </div>
+
+                </div>
+            </form>
+        </nav>
+    </header>
+    <main class='container-fluid'>
+        <div class='row mb-5'>
+            <div class='border col-1 text-center'>
+                <i class="fas fa-angle-double-left"></i>
+            </div>
+            <div class='border col-5 col-md-2 text-center bg-primary text-white'>
+                Wed, Sep 25
+                <div style="height: 40px;">
+                    <span class='align-middle'>10&dollar;</span>
+                    <span class="font-italic align-top cents">00</span>
+                    <span class='align-middle'>+</span>
+
+                </div>
+            </div>
+            <div class='border col-5 col-md-2 text-center'>
+                Wed, Sep 25
+                <div style="height: 40px;">
+                    <span class='align-middle'>10&dollar;</span>
+                    <span class="font-italic align-top cents">00</span>
+                    <span class='align-middle'>+</span>
+
+                </div>
+            </div>
+            <div class='border d-sm-none d-md-block d-none d-sm-block col-5 col-md-2 text-center'>
+                Wed, Sep 25
+                <div style="height: 40px;">
+                    <span class='align-middle'>10&dollar;</span>
+                    <span class="font-italic align-top cents">00</span>
+                    <span class='align-middle'>+</span>
+
+                </div>
+            </div>
+            <div class='border d-sm-none d-md-block d-none d-sm-block col-5 col-md-2 text-center'>
+                Wed, Sep 25
+                <div style="height: 40px;">
+                    <span class='align-middle'>10&dollar;</span>
+                    <span class="font-italic align-top cents">00</span>
+                    <span class='align-middle'>+</span>
+
+                </div>
+            </div>
+            <div class='border d-sm-none d-md-block d-none d-sm-block col-5 col-md-2 text-center'>
+                Wed, Sep 25
+                <div style="height: 40px;">
+                    <span class='align-middle'>10&dollar;</span>
+                    <span class="font-italic align-top cents">00</span>
+                    <span class='align-middle'>+</span>
+
+                </div>
+            </div>
+            <div class='border col-1 text-center'>
+                <i class="fas fa-angle-double-right"></i>
+            </div>
+        </div>
+
+        <section>
+            <div class='row border-top'>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+            </div>
+            <div class='row border-top'>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+            </div>
+            <div class='row border-top'>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+                <div class='col-2'>2</div>
+            </div>
+        </section>
+
+
+    </main>
+</body>
+
+</html>

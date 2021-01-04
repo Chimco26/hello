@@ -1,0 +1,55 @@
+@media print {
+    * {
+        color: #000 !important;
+        background-color: #fff !important;
+    }
+}
+
+body {
+    font-size: 16px;
+}
+h2 {
+    color: rgb(25, 125, 0);
+    /* same as */
+    color: #197d00;
+    color: rgba(25, 125, 0, 1);
+
+    background-color: #f2aad5;
+    font-size: 2em;
+}
+
+.bolder {
+    font-weight: 700;
+}
+.img-width {
+    width: 100px;
+}
+#h-alt {
+    font-size: 1em;
+}
+.box  {
+    line-height: 40px;
+}
+
+div.red.box {
+    
+}
+
+.box .element * {
+    color: darkorange;
+}
+
+.red {
+    background-color: red;
+}
+
+/* 2 * 1 + 1 * 10 + 0 * 100 = 12 */
+div.specifity h3 { 
+    color: tomato;
+} 
+/* 3 * 1 + 0 * 10 + 0 * 100 = 3 */
+div div h3 {
+    /* we dont use !important */
+    /* color: thistle !important; */
+    color: thistle;
+}
